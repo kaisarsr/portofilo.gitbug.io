@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofilo-Design</title>
+    <style>
+        * {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-image: url(imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.titulo-categorias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.titulo a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.categorias a {
+    text-decoration: none;
+    color: rgb(132, 0, 255);
+    padding: 10px 20px;
+    margin: 0;
+    font-family: OCR A Std,s monospace;
+    transition: 0.4s;
+}
+
+.categorias a:hover{
+    color: aliceblue;
+    text-shadow: 0 0 10px #2f00ff, 0 0 5px #410131;
+}
+
+
+main {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    margin-top: -100px;
+    margin-left: -150px;
+    max-width: 200px;
+}
+
+.principais {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.design {
+   position: absolute;
+   top: 200px;
+   left: 620px;
+   transform: translate(-50%, -50%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.subtitulo {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: -60px;
+    color: #ffffff;
+    font-family: OCR A Std,s monospace;
+    transition: 0.5s;
+}
+
+.subtitulo:hover {
+    color: black;
+    text-shadow: 0 0 10px #7700ff, 0 0 5px #ff0077;
+
+}
+
+.img1 {
+    max-width: 200px;
+    max-height: 200px;  
+    border-radius: 10px;  
+    transition: 0.4s;
+}
+
+.img1:hover {
+    box-shadow: 0px 0px 20px 10px rgb(0, 0, 0);
+    max-width: 300px;
+    max-height: 200px; 
+}
+
+.img2 {
+    max-width: 300px;
+    max-height: 200px;   
+    border-radius: 10px; 
+    transition: 0.4s;
+}
+
+.img2:hover {
+    box-shadow: 0px 0px 20px 10px rgb(0, 0, 0);
+    max-width: 400px;
+    max-height: 200px; 
+}
+
+.img3 {
+    max-width: 200px;
+    max-height: 200px;    
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.img3:hover {
+    box-shadow: 0px 0px 20px 10px rgb(0, 0, 0);
+    max-width: 300px;
+    max-height: 200px; 
+}
+
+.img4 {
+    max-width: 200px;
+    max-height: 200px;   
+    border-radius: 10px; 
+    transition: 0.4s;
+}
+
+.img4:hover {
+    box-shadow: 0px 0px 20px 10px rgb(0, 0, 0);
+    max-width: 300px;
+    max-height: 200px; 
+}
+
+.img5 {
+    max-width: 265px;
+    max-height: 200px; 
+    border-radius: 10px;
+    transition: 0.4s;   
+}
+
+.img5:hover {
+    box-shadow: 0px 0px 20px 10px rgb(0, 0, 0);
+    max-width: 300px;
+    max-height: 200px;
+    transition: 0.4s; 
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+<div class="titulo-categorias">
+        <h2 class="titulo">
+            <a href="portofilo.html">My Portofilo</a>
+        </h2>
+        <nav class="categorias">
+            <h3>
+                <a href="design.html">Design</a>
+                <a href="otserve.html">Otserve</a>
+                <a href="#">Dev Web</a>
+                <a href="#">Montagem</a>
+                <a href="#">Others</a>
+            </h3>
+        </nav>
+</div>
+    </header>
+    <main>  
+    <div class="principais">
+        <section class="design">
+            <h2 class="subtitulo">PhotoshopCS6</h2>
+            <a href="#">
+                <img src="imagens/design1.png" alt="" class="img1">
+            </a>
+            <a href="#">
+                <img src="imagens/design2.jpg" alt="" class="img2">
+            </a>
+            <a href="#">
+                <img src="imagens/design3.jpg" alt="" class="img3">
+            </a>
+            <a href="#">
+                <img src="imagens/design4.jpg" alt="" class="img4">
+            </a>
+            <a href="#">
+                <img src="imagens/design5.jpg" alt="" class="img5">
+            </a>
+        </section>
+    </div>
+    </main>
+</body>
+</html>
